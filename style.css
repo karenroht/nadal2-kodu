@@ -120,6 +120,12 @@ nav ul li a,
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-image:hover .post-header {
+    opacity: 1;
 }
 
 .meist {
